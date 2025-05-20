@@ -1,0 +1,180 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 12",
+      "price": 799,
+      "category": "smartphones",
+      "image": "https://image.ceneostatic.pl/data/products/98019111/i-apple-iphone-12-64gb-czarny.jpg"
+    },
+    {
+      "id": "2",
+      "title": "MacBook Pro",
+      "price": 1299,
+      "category": "laptops",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "3",
+      "title": "Barszcz",
+      "price": 25,
+      "category": "space-food",
+      "image": "https://imgs.search.brave.com/hvgPsS-l-Nl4wqBDcsCRym2aY48wkCC1VMxDL2WaNYY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdWJs/aW1lcmEucnUvd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMTIv/Ym9yc2hoLTQwLWct/MzAweDMwMC5qcGc"
+    },
+    {
+      "id": "4",
+      "title": "Space suit",
+      "price": 89,
+      "category": "clothing",
+      "image": "https://imgs.search.brave.com/-_KZZXJylPyfYThgLViyrP0nrOXRDLKrnEA8fELwVhs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1Lzc5LzgyLzAy/LzM2MF9GXzU3OTgy/MDI1NV8yam0xRXBw/aHBtb1IxOWoxWENa/eXRQdnRwSUhwNWRI/Zy5qcGc"
+    },
+    {
+      "id": "5",
+      "title": "Space Pen",
+      "price": 19,
+      "category": "tools",
+      "image": "https://imgs.search.brave.com/vFYNxLkI5cWtqOjYflh5ZcvnX_lY4nSbIiY2CTU4HOI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzFJMWhBaUQyckwu/anBn"
+    },
+    {
+      "id": "6",
+      "title": "oatmeal",
+      "price": 23,
+      "category": "space-food",
+      "image": "https://imgs.search.brave.com/VrAbuzVOycyyEugz2R9W6HOsyRMEk6KlXXaVkBMkmQ0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTEy/NTMzNzQ5OC9waG90/by92YXJpb3VzLWlu/c3RhbnQtb2F0bWVh/bC1wcm9kdWN0cy1m/b3ItZmVhdHVyZXMt/Zm9vZC13aW5lLXRh/a2UtZml2ZS1jb2x1/bW4tMTJtYXkxMi5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/azMwNkJFdzdEQ1ZT/LWp6Rm52YmxwdnR5/WDBVOUpTMjBRWmY4/YzFzWmljUT0"
+    },
+    {
+      "id": "7",
+      "title": "helmet",
+      "price": 699,
+      "category": "gear",
+      "image": "https://imgs.search.brave.com/dos4tXWlY0ByQomIK_TyQh-ZNciMiMVEBFuTkDWM3yY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jeWJl/ci1jcmFmdC5zaG9w/L2Nkbi9zaG9wL2Zp/bGVzL2dyZWVueDEu/anBnP3Y9MTcyNDc1/NjIzNSZ3aWR0aD0x/MDAw"
+    },
+    {
+      "id": "8",
+      "title": "Орёл-X",
+      "price": 3200,
+      "category": "clothing",
+      "image": "https://imgs.search.brave.com/Uo8XhoZ3sQvcL65PB_lEVP40fRI-Q7PakDDkUPcW9kI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly85MC5p/bWcuYXZpdG8uc3Qv/aW1hZ2UvMS8xLkto/MGhDN2FBaHZRM3F5/VDFlWHMyRVNTcWhQ/Q1R2SUwwazl2bjhK/TUloMWFVcUlMdU42/c2s5WmMuMk5haU92/QUV4T1ItMFFoVzhH/V2pkenY2UjBGWVZC/NzdpQThpNFoyNTU0/TQ"
+    },
+    {
+      "id": "9",
+      "title": "bathroom accessories",
+      "price": 12,
+      "category": "hygiene",
+      "image": "https://imgs.search.brave.com/gmi8EcmVMHIoZsgTQGFjN4G0t7-IZWb2SiuKc_IwU2M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFXcWlMU2FWTEwu/X0FDLl9TUjE4MCwy/MzAuanBn"
+    },
+    {
+      "id": "10",
+      "title": "Strowbery",
+      "price": 15,
+      "category": "space-food",
+      "image": "https://imgs.search.brave.com/OqWFDaW6YnsiDdMYg3GM-pjKH5jJUS4dPNynnpuQtuw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91Lm1h/a2V1cC5jb20udWEv/Ni82ai82amF1NGgx/dno3Y2YuanBn"
+    },
+    {
+      "id": "11",
+      "title": "Back",
+      "price": 1100,
+      "category": "gear",
+      "image": "https://imgs.search.brave.com/mBhhF0RyPDaDWqCjUaLmVWsibgTk1elabMQYqacTSmQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLnlhbmRleGNs/b3VkLm5ldC9wcmlu/dGlvL2Fzc2V0cy9y/ZWFsaXN0aWNfdmll/d3MvZnVsbF9wcmlu/dF9iYWNrcGFjay90/aWxlL2MzZDEyNTcx/OWYwZjlmM2M4OWQ3/ZTU3Mzc1OWM0ODgz/YWFlY2E5YWQucG5n/PzE2Mjc4MjE3OTg"
+    },
+    {
+      "id": "12",
+      "title": "space tuolet",
+      "price": 8,
+      "category": "hygiene",
+      "image": "https://imgs.search.brave.com/b59t6pSOpLglavrjHaKsaUfdlDUFcnV6niyH8qRJzIo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzZjL1RvaWxldF9k/ZXZpY2Vfb25fU295/dXpfc3BhY2VjcmFm/dC5qcGc"
+    },
+    {
+      "id": "13",
+      "title": "space tools",
+      "price": 59,
+      "category": "tools",
+      "image": "https://imgs.search.brave.com/4TLkOioDa0Q5jG6TsLXQGJr77HpmfWgPCMpMyyiEqUM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly83ZnQu/cnUvdXBsb2FkL3Jl/c2l6ZV9jYWNoZS9p/YmxvY2svMDA1L2Z6/bWFncGZrMTVuYngz/M245YjUyaDdrMDd0/ZmJ2eXNvLzEzMl8x/MzJfMi9Gb3Jlc3Rp/X1N1YXJkaV9TRVhU/MDAxLmpwZw"
+    },
+    {
+      "id": "14",
+      "title": "pizza",
+      "price": 29,
+      "category": "space-food",
+      "image": "https://imgs.search.brave.com/CkrS0iM1ZiIemf5RyHLDVb-1ogzpalEuxpoJusjc8Co/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYWZp/YS51YS9zdG9yYWdl/L2ltYWdlLXN0b3Jh/Z2UvMjAyNS8wMy8w/Ny8xMDU1MTcvc291/cmNlLzQ4MHgwLzI5/MDY4MDZmLTgwNzkt/NGYyZi1iOTgwLWYz/MTdhZDc1YzM3ZF8x/NzQxMzY3NDcxLmpw/Zw"
+    },
+    {
+      "id": "15",
+      "title": "Socks",
+      "price": 14,
+      "category": "clothing",
+      "image": "https://imgs.search.brave.com/QYRKdFvoFl5Nmp0BmYkLvtcocS-9P_rOGzSCC8yXuJY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuaW5zYWxlcy1j/ZG4uY29tL3IvcWE0/SnNSOXNEV0UvcnM6/Zml0OjM2MDozNjA6/MS9wbGFpbi9pbWFn/ZXMvcHJvZHVjdHMv/MS8xMjEvNDc2Njky/NjAxL2xhcmdlX2Fy/Z19jYW1vMS5qcGdA/anBn"
+    },
+    {
+      "id": "16",
+      "title": "exercise machine for heand",
+      "price": 120,
+      "category": "training",
+      "image": "https://imgs.search.brave.com/Bf4BVoaFkNDNLZXxdzbGeWfKYtkg0WerXhpE4RGrZ3Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNzE0/NTczNzk5LTE2NDcy/NTcxNTctMjM5Nzgw/MTIxLTY2MzI1MWRh/MjNiYzkuanBnP2Ny/b3A9MXh3OjF4aDtj/ZW50ZXIsdG9wJnJl/c2l6ZT05ODA6Kg"
+    },
+    {
+      "id": "17",
+      "title": "glasses with scrin",
+      "price": 45,
+      "category": "accessories",
+      "image": "https://imgs.search.brave.com/wRNv3UaC3SWl_HZ6pT7k44deys3g2O9MxMueAGfhOMk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjg1/NzI1NTYzLXhyZWFs/LWFpci1hci1nbGFz/c2VzLTY0N2EyMTIx/ZWIzNmUuanBnP2Ny/b3A9MXh3OjF4aDtj/ZW50ZXIsdG9wJnJl/c2l6ZT05ODA6Kg"
+    },
+    {
+      "id": "18",
+      "title": "table",
+      "price": 599,
+      "category": "electronics",
+      "image": "https://imgs.search.brave.com/s5J5UjWyrvL8MPiy0o84dnsdXjJnGGoHsyxTSn1b9n0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZWxlY3Ryb25p/Y2V4cHJlc3MuY29t/L3Byb2R1Y3QuYy54/bC8yMDk3ODkuanBn"
+    },
+    {
+      "id": "19",
+      "title": "brush",
+      "price": 10,
+      "category": "hygiene",
+      "image": "https://imgs.search.brave.com/ROOKw6lzdCmE4pAl1Cv-UNcG7bk7Am58cCxZxYZo--I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91Lm1h/a2V1cC5jb20udWEv/Ni82eS82eWU0cmEz/YTg2d3guanBn"
+    },
+    {
+      "id": "20",
+      "title": "Coffi",
+      "price": 9,
+      "category": "space-food",
+      "image": "https://imgs.search.brave.com/N_WCnAEENeS4b8_7IqYwvfw9_MfL6E2twnRH-7pQVZU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcx/MzM1MTM4L3Bob3Rv/L25lc2NhZmUtaW5z/dGFudC1jb2ZmZWUu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVVTX2hPV2VGdFlo/SEZJTnBQbldhcFM3/eEZ2UHo4S1N5bjFD/RWV0cXBWcG89"
+    },
+    {
+      "id": "91",
+      "title": "baby Yoda",
+      "price": 12.4,
+      "category": "lol",
+      "image": "baby-yoda-cute-pose-png-05062024-ri5fedlql9sk06n1.png"
+    },
+    {
+      "id": "911",
+      "title": "pencil case",
+      "price": 1.7,
+      "category": "lol",
+      "image": "aHR0cHM6Ly9tcmdlZWsucnUvaW1hZ2VzL3Byb2R1Y3RfcGljdHVyZXNfbmV3LzEzMDAwLzEzMDAwLzEzMDcyL3Byb2R1Y3RfcGljdHVyZXMvb3JpZ2luYWwvMTMwNzItMS5qcGc.jpg"
+    },
+    {
+      "id": "9111",
+      "title": "medal",
+      "price": 2.6,
+      "category": "lol",
+      "image": "424891_1024x1024_0035095a-060d-491f-832e-8d032b1864f3_medium.webp"
+    },
+    {
+      "id": "91111",
+      "title": "svweopkc",
+      "price": 12.4,
+      "category": "lol",
+      "image": "aHR0cHM6Ly9tcmdlZWsucnUvaW1hZ2VzL3Byb2R1Y3RfcGljdHVyZXNfbmV3LzEzMDAwLzEzMDAwLzEzMDcyL3Byb2R1Y3RfcGljdHVyZXMvb3JpZ2luYWwvMTMwNzItMS5qcGc.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Dan Dan",
+      "email": "ivan@example.com",
+      "password": "12345678"
+    }
+  ]
+}

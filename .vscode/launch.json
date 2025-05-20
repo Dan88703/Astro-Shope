@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Run with Nodemon (maen.js)",
+        "program": "${workspaceFolder}/maen.js",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "restart": true,
+        "runtimeExecutable": "nodemon",
+        "skipFiles": [
+          "<node_internals>/**"
+        ]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Run basket.js",
+        "program": "${workspaceFolder}/basket.js",
+        "console": "integratedTerminal",
+        "skipFiles": [
+          "<node_internals>/**"
+        ]
+      }
+    ]
+  }
+  

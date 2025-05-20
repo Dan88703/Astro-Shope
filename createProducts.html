@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Products</title>
+    <link rel="icon" href="./AddLogo.png" type="image/png">
+    <style>
+      
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background: linear-gradient(135deg, #0a0e2a 0%, #1a1f4b 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        a {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 12px 24px;
+            background-color: transparent;
+            color: #ff0038;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.4s ease;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: 14px;
+            border: 2px solid #ff0038;
+            box-shadow: 0 0 10px rgba(255, 0, 56, 0.3);
+            text-shadow: 0 0 5px rgba(255, 0, 56, 0.5);
+        }
+        
+        a:hover {
+            background-color: #ff0038;
+            color: #0a0e2a;
+            transform: translateY(-3px);
+            box-shadow: 0 0 20px rgba(255, 0, 56, 0.7);
+            text-shadow: none;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 40px;
+            background: rgba(10, 14, 42, 0.8);
+            border-radius: 12px;
+            box-shadow: 0 0 30px rgba(255, 0, 56, 0.2);
+            border: 2px solid #ff0038;
+            backdrop-filter: blur(5px);
+        }
+
+        .form-title {
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 28px;
+            position: relative;
+            text-shadow: 0 0 10px rgba(255, 0, 56, 0.7);
+        }
+
+        .form-title:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #ff0038;
+            margin: 15px auto 0;
+            box-shadow: 0 0 10px #ff0038;
+        }
+
+     
+        label {
+            display: block;
+            margin: 25px 0 10px;
+            font-weight: 600;
+            color: #ff0038;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 90%;
+            padding: 14px 18px;
+            border: 2px solid #ff0038;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.4s;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 0, 56, 0.1) inset;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            border-color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.1);
+            outline: none;
+            box-shadow: 0 0 15px rgba(255, 0, 56, 0.5);
+        }
+
+     
+        .file-input-container {
+            position: relative;
+            margin-top: 30px;
+        }
+
+        input[type="file"] {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .file-input-label {
+            display: inline-block;
+            padding: 16px 30px;
+            background: rgba(255, 0, 56, 0.2);
+            color: #ff0038;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.4s;
+            font-weight: 700;
+            text-align: center;
+            width: 90%;
+            border: 2px dashed #ff0038;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .file-input-label:hover {
+            background: rgba(255, 0, 56, 0.4);
+            box-shadow: 0 0 20px rgba(255, 0, 56, 0.3);
+        }
+
+        .add-btn {
+            margin-top: 40px;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, #ff0038 0%, #cc002d 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.4s;
+            width: 100%;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            box-shadow: 0 5px 15px rgba(255, 0, 56, 0.4);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .add-btn:hover {
+            background: linear-gradient(135deg, #ff0040 0%, #e60033 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 0, 56, 0.6);
+        }
+
+    
+        input:required {
+            border-left: 4px solid #ff0038;
+        }
+
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 0, 56, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(255, 0, 56, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 0, 56, 0); }
+        }
+
+        .pulse-effect {
+            animation: pulse 2s infinite;
+        }
+
+        
+        @media (max-width: 768px) {
+            .form-container {
+                padding: 30px 20px;
+            }
+            
+            a {
+                display: block;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="./frontStore.html" class="pulse-effect">MAIN PAGE</a>
+    <a href="./createProducts.html">ADD PRODUCTS</a>
+    
+    <div class="form-container">
+        <h2 class="form-title">ADD NEW PRODUCT</h2>
+        
+        <label for="tit">PRODUCT TITLE</label>
+        <input type="text" id="tit" required placeholder="Enter product title">
+        
+        <label for="num">PRODUCT PRICE</label>
+        <input type="number" id="num" required placeholder="Enter price in USD">
+        
+        <div class="file-input-container">
+            <label for="file">PRODUCT IMAGE</label>
+            <input type="file" id="file" required accept="image/*">
+            <label class="file-input-label" for="file">
+                ↓ UPLOAD IMAGE ↓
+            </label>
+        </div>
+        
+        <button class="add-btn">ADD PRODUCT</button>
+    </div>
+
+    <script type="module" src="./addProduct.js"></script>
+</body>
+</html>
