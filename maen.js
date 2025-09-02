@@ -39,17 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
       butBuy.dataset.id = i.id;
       butBuy.innerText = 'Buy';
 
-      product.style.cssText = `
-        background-color:blue;
-        max-width:150px;
-        max-height:490px;
-        padding: 15px;
-        margin: 10px;
-        text-align:center;
-        min-height: 150px;
-        max-height:200px;
-      `;
-
       butBuy.style.cssText = `
         margin-left:10px;
         width:70px;

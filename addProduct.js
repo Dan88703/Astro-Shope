@@ -5,7 +5,6 @@ document.querySelector('.add-btn').addEventListener('click', () => {
     .then(data => {
       const maxId = data.reduce((max, p) => 
         (p.id && p.id > max) ? p.id : max, 0);
-      console.log('add new product id:', data.id);
       let newProduct = {
         id: maxId + 1,
         title: document.getElementById('tit').value,
