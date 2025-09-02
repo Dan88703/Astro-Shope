@@ -4,7 +4,8 @@
   "main": "back.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "frontStore.html"
+    "start": "frontStore.html",
+    "dev":"npx nodemon --exec \"npx json-server --watch bd.json --port 3000\""
   },
   "keywords": [],
   "author": "",
